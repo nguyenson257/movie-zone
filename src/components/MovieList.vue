@@ -22,8 +22,7 @@
 import { defineComponent, ref, onMounted } from 'vue';
 import { useRouter } from 'vue-router'; // Import useRouter
 import { fetchMovies } from '@/services/movieService';
-import { Movie, Pagination } from '@/models/movie';
-import Pagination from '@/components/Pagination.vue';
+import { Movie } from '@/models/movie';
 import { getThumbnailUrl } from '@/utils/imageUtils';
 
 export default defineComponent({
